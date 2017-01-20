@@ -18,7 +18,7 @@ function fib(stack, n) {
 }
 
 var max   = 4000000;
-var total = 0;
+var answer = 0;
 var stack = [];
 
 for(var i = 0; i < max; i++) {
@@ -27,8 +27,8 @@ for(var i = 0; i < max; i++) {
     break;
   }
   if(stack[i] % 2 == 0) {
-    total += stack[i]
+    answer += stack[i]
   }
 }
 
-console.log(total);
+console.log(answer);
