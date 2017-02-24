@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // create a function with 2 parametets, first and last. have it pring to the console
 // "your first name is: first, you last name is: last" using a string literal remember string literals
 // accepts valies inside of a string use this symbol: ${}
@@ -29,4 +28,4 @@ for (var i = 0; i <= 10; i++) {
     var result = multiplier * i;
     console.log(multiplier + ' * ' + i + ' = ' + result);
 }
->>>>>>> 72fc3133d9e3eff7b2f2ffe9e1a32dd3df1df759
+
